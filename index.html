@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Activity Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Daily Activity Planner</h1>
+    <p class="subtitle">Rencanakan aktivitas harianmu dengan rapi</p>
+
+    <div class="input-area">
+      <input type="text" id="activityInput" placeholder="Contoh: Baca buku">
+      <button onclick="addActivity()">Tambah</button>
+    </div>
+
+    <div class="info">
+      <p>Total Aktivitas: <span id="total">0</span></p>
+      <p>Selesai: <span id="done">0</span></p>
+    </div>
+
+    <ul id="activityList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

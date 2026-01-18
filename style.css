@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ffe6f0;
+}
+
+.container {
+  max-width: 420px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  color: #f1bdd7;
+}
+
+button {
+  background: #f7deeb;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+}
+
+li {
+  background: #fff0f5;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;   /* INI YANG JAUHIN */
+}
+
+.done {
+  text-decoration: line-through;
+  color: #744e66;
+}
+
+.subtitle {
+    text-align: center;
+}
